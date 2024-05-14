@@ -1,0 +1,7 @@
+key,de-DE,en-US
+server.config.name.system.CustomL10n,Eigene Übersetzungen,Custom translations
+server.config.parameter.system.CustomL10n.templates.label,Übersetzung,Translation
+server.config.parameter.system.CustomL10n.templates.original.label,Original-Key,Original key
+server.config.parameter.system.CustomL10n.templates.translation.label,Neue Übersetzung,New translation
+server.config.parameter.system.CustomL10n.enabledebug.label,Existierende Übersetzungen in Console ausgeben,Echo existing translations in console
+server.config.parameter.system.CustomL10n.enabledebug.checkbox,aktiviert,activated

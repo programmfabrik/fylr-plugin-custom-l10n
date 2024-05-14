@@ -1,0 +1,31 @@
+plugin:
+  name: custom-l10n
+  version: 1.0
+  l10n: l10n/custom-l10n.csv
+  displayname:
+    de-DE: Eigene Übersetzungen
+    en-US: Custom translations
+  info:
+    de-DE: Konfiguriere eigene Übersetzungen oder überschreibe existierende Übersetzungen
+    en-US: Configure your own translations or overwrite existing translations
+  webfrontend:
+    url: custom-l10n.js
+
+base_url_prefix: "webfrontend"
+
+base_config:
+  - name: CustomL10n
+    group: customl10n
+    parameters:
+      enabledebug:
+        type: bool
+        position: 0
+      templates:
+        type: table
+        fields:
+          - name: original
+            type: text
+            position: 0
+          - name: translation
+            type: text-l10n
+            position: 1
